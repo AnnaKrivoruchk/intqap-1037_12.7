@@ -7,7 +7,6 @@ deposit.append(int(per_cent[0] * money / 100))
 deposit.append(int(per_cent[1] * money / 100))
 deposit.append(int(per_cent[2] * money / 100))
 deposit.append(int(per_cent[-1] * money / 100))
-print(deposit)
+print(deposit) #Функция вывода дохода с разных  годовых ставок оставлена для соответствия примеру к заданию, где выведены варианты дохода по сууме внесенных средств
 
 print("Максимальная сумма, которую вы можете заработать -", max(deposit))
-
